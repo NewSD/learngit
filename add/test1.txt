@@ -5,3 +5,11 @@ git init
 git add .
 
 git commit -m "mm"
+
+上传github的命令
+git remote add origin git@github.com:NewSD/learngit.git
+git push -u origin master
+
+git pull
+
+git push
