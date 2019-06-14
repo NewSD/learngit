@@ -1,0 +1,29 @@
+
+
+git init
+
+git add .
+
+git commit -m "mm"
+
+上传github的命令
+git remote add origin git@github.com:NewSD/learngit.git
+git push -u origin master
+
+git pull
+
+git push
+
+分支的提交
+git push --set-upstream origin feature1
+
+查看分支
+D:\WorkSpaceGit\learngit>git branch
+  dev/nhd.1.0
+  dev/nhd.1.1
+* feature1
+  master
+  rc/nhd.1.0
+  release/nhd.1.0
+  release_candidate/nhd.1.0
+  test/nhd.1.0
